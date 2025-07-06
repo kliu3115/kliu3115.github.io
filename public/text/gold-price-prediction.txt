@@ -1,0 +1,10 @@
+This project uses a regression model to predict tomorrow's adjusted close price for gold based on key market indicators like the S&P 500, Gold Miners ETF, and Dow Jones Index. The top 15 correlated features were selected from the original dataset of ~80 features using a Random Forest Regressor, then trained using multiple models including linear regression, neural networks, LSTMs, and XGBoost. The best results came from a neural network with 32 nodes, 0.1 dropout, 0.1 learning rate, and batch size of 64, achieving 98% accuracy.
+
+
+
+
+
+
+
+
+

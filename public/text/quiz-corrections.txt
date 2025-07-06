@@ -1,0 +1,1 @@
+A quiz corrections app designed to help students study using flashcards that display the question, correct answer, and the reason it was previously missed. Built with a React front end, Node.js backend, and SQL database, the tool was developed and used during my tutoring sessions with younger students.

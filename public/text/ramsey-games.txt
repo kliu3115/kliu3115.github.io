@@ -1,0 +1,1 @@
+This research project explores strategies for playing Ramsey Games by permuting four edge-selection functions: WIN, BLOCK, RANDOM, and DEGREE. Using simulations and training, we aim to identify the best strategy and develop a high-performing AI player.
