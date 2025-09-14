@@ -53,6 +53,7 @@ const Project = () => {
             <img src={'/screenshots/mal-3.png'} alt="Screenshot 1" className="rounded-lg object-cover" />*/}
           </div>
         </div>
+        <PdfEmbed pdfPath="/pdfs/Draw_Thresholds_in_Ramsey_Two_Player_Games(revised).pdf" buttonText = 'Paper'/> 
       </div>
     </LayoutBase>
   );
