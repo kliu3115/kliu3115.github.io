@@ -54,7 +54,7 @@ const Project = () => {
             <p> Less valid since converting a 700+ d vector into 2d</p>
             <img src={'/screenshots/mal-3.png'} alt="Screenshot 1" className="rounded-lg object-cover" />*/}
           </div>
-        </div>
+        </div> 
       </div>
     </LayoutBase>
   );
