@@ -58,7 +58,7 @@ const Home = () => {
       <div className="flex flex-col items-center justify-center bg-gray-100 h-60">
         <div className="text-3xl font-bold mb-4 text-black">Hi, I'm Kelly Liu</div>
         <div className="text-lg text-center mb-6 text-black">
-          I am a student at Yale University graduting in 2028 and pursuing degrees in Math, Computer Science and Economics. My interests and experiences span machine learning, financial modeling and full stack web development for educational technologies and other tools. Outside academics, I have been dancing for the past 15 years and am an avid poker player. 
+          I am a student at Yale University graduating in 2029 and pursuing degrees in Math and Computer Science. My interests and experiences span machine learning, financial modeling and full stack web development for educational technologies and other tools. Outside academics, I have been dancing for the past 15 years and am an avid poker player. 
         </div>
       </div>
 
