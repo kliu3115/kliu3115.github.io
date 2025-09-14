@@ -2,6 +2,7 @@ import React from 'react';
 import { useNavigation } from 'next/navigation';
 import readFile from '../../../public/text/file_reader';
 import LayoutBase from '../../components/layoutbase.js';
+import PdfEmbed from '../../components/PdfEmbed';
 
 const Project = () => {
   const router = useNavigation;
@@ -43,7 +44,7 @@ const Project = () => {
           </div>
         </div>
 
-        <div className="mt-2 w-3/4 grid grid-cols-2 gap-4">
+        <div className="mt-2 w-3/4 flex flex-col gap-6">
           <div>
             <h3 className="text-3xl font-semibold mb-3">Ramsey Games Online:</h3>
             <a   className="text-blue-600 hover:underline" href="https://ramsey-game.vercel.app/">https://ramsey-game.vercel.app/</ a>
@@ -52,8 +53,8 @@ const Project = () => {
             <p> Less valid since converting a 700+ d vector into 2d</p>
             <img src={'/screenshots/mal-3.png'} alt="Screenshot 1" className="rounded-lg object-cover" />*/}
           </div>
-        </div>
-        <PdfEmbed pdfPath="/pdfs/Draw_Thresholds_in_Ramsey_Two_Player_Games(revised).pdf" buttonText = 'Paper'/> 
+          <PdfEmbed pdfPath="/pdfs/Draw_Thresholds_in_Ramsey_Two_Player_Games(revised).pdf" buttonText = 'Paper'/> 
+        </div>        
       </div>
     </LayoutBase>
   );
