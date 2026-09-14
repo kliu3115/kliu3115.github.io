@@ -23,6 +23,7 @@ export function getAllPosts() {
       title: data.title,
       date: data.date,
       blurb: data.blurb || data.summary || '',
+      featured: !!data.featured,
       content,
     };
   });

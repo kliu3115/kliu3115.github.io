@@ -1,3 +1,0 @@
-push code for ramsey game simluation optimization and add optimization to projects pages
-update gdx prediction blurb (less ai + still accurate)\
-add more selected writings - prob 1 phil from second sem, 1 h&p, 1 lit
